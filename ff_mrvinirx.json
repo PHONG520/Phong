@@ -1,0 +1,98 @@
+{
+  "apps": [
+    {
+      "appName": "System",
+      "pkgName": "nonpkg.noname"
+    }
+  ],
+  "filters": [
+   
+    {
+      "appName": "Free Fire",
+      "isCustom": true,
+      "mobile": "allow",
+      "pkg1Name": "com.dts.freefireth",
+      "port": 10012,
+      "priority": 0,
+      "proto": "tcp",
+      "server": "*",
+      "serverStrType": "ip4",
+      "wifi": "allow"
+    },
+    {
+      "appName": "Free Fire",
+      "isCustom": true,
+      "mobile": "allow",
+      "pkg1Name": "com.dts.freefireth",
+      "port": 39698,
+      "priority": 0,
+      "proto": "tcp",
+      "server": "*",
+      "serverStrType": "ip4",
+      "wifi": "allow"
+    },
+
+    {
+      "appName": "Free Fire",
+      "isCustom": true,
+      "mobile": "deny",
+      "pkg1Name": "com.dts.freefireth",
+      "port": 80,
+      "priority": 1,
+      "proto": "tcp",
+      "server": "*",
+      "serverStrType": "ip4",
+      "wifi": "deny"
+    },
+    {
+      "appName": "Free Fire",
+      "isCustom": true,
+      "mobile": "deny",
+      "pkg1Name": "com.dts.freefireth",
+      "port": 443,
+      "priority": 1,
+      "proto": "tcp",
+      "server": "*",
+      "serverStrType": "ip4",
+      "wifi": "deny"
+    },
+
+    {
+      "appName": "Free Fire",
+      "isCustom": true,
+      "mobile": "deny",
+      "pkg1Name": "com.dts.freefireth",
+      "port": -1,
+      "priority": 2,
+      "proto": "tcp",
+      "server": "report.garenanow.com",
+      "serverStrType": "domain",
+      "wifi": "deny"
+    },
+    {
+      "appName": "Free Fire",
+      "isCustom": true,
+      "mobile": "deny",
+      "pkg1Name": "com.dts.freefireth",
+      "port": -1,
+      "priority": 2,
+      "proto": "tcp",
+      "server": "analytics.garenanow.com",
+      "serverStrType": "domain",
+      "wifi": "deny"
+    },
+    {
+      "appName": "Free Fire",
+      "isCustom": true,
+      "mobile": "deny",
+      "pkg1Name": "com.dts.freefireth",
+      "port": -1,
+      "priority": 2,
+      "proto": "tcp",
+      "server": "anticheat.garena.com",
+      "serverStrType": "domain",
+      "wifi": "deny"
+    }
+  ],
+  "signature": "MrViniRX"
+}
